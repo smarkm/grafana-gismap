@@ -1,0 +1,18 @@
+{
+    "code":0,
+    "msg":"success",
+    "data":{
+        "centerLat":36.385913,
+        "centerLng":107.446289,
+        "zoom":4,
+        "nodes": [
+        { "id": "23691", "color": "#00ff00", "name": "Google", "label": "23691", "lat": 36.140675384778373, "lng": 107.446289, "image": "topology/img/default.png" },
+        { "id": "11111", "color": "#00ff00", "name": "baidu", "label": "Google", "lat": 35.140675384778373, "lng": 106.6223065, "image": "topology/img/default.png" },
+        { "id": "65072", "color": "#00ff00", "name": "65072", "label": "baidu", "lat": 34.140675384778373, "lng": 105.6223065, "image": "/topology/img/default.png" },
+        { "id": "65100", "color": "#00ffff", "name": "65100", "label": "65100", "lat": 33.140675384778373, "lng": 104.6223065, "image": "./topology/img/default.png" }
+        ],
+        "links": [
+            { "id": "", "from": "11111", "to": "23691", "pm": "test pm", "title": "link" }
+        ],
+        "ebgp": "23691"}
+}
