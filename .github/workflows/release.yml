@@ -79,7 +79,7 @@ jobs:
         run: yarn sign
         env:
           GRAFANA_API_KEY: ${{secrets.GRAFANA_API_KEY}} # Requires a Grafana API key from Grafana.com.
-
+          rootUrl: ${{secrets.rootUrls}}
       - name: Get plugin metadata
         id: metadata
         run: |
