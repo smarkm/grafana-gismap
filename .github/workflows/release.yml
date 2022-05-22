@@ -76,7 +76,7 @@ jobs:
           args: buildAll
 
       - name: Sign plugin
-        run: yarn sign --rootUrls https://github.com/smarkm/grafana-gismap --signatureType community 
+        run: yarn sign --rootUrls https://github.com/smarkm/grafana-gismap --signatureType Community 
         env:
           GRAFANA_API_KEY: ${{secrets.GRAFANA_API_KEY}} # Requires a Grafana API key from Grafana.com.
           rootUrl: ${{secrets.rootUrls}}
