@@ -10,5 +10,5 @@ update-release:
 	git add .github/*
 	git commit -m "update"
 	git push
-	git tag vpre-0.0.3
+	git tag v0.0.3
 	git push --tag

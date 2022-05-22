@@ -1,6 +1,6 @@
 {
   "name": "smark-grafana-gismap",
-  "version": "pre-0.0.3",
+  "version": "0.0.3",
   "description": "grafana gismap",
   "scripts": {
     "build": "grafana-toolkit plugin:build",
